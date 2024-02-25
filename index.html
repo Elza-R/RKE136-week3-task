@@ -21,13 +21,17 @@
           <span class="movie-duration">1h 55m</span>
         </p>
         <div class="movie-poster-container">
-          <img src="images/freeGuy.jpg" alt="Free Guy Poster" class="movie-poster"/>
+          <img
+            src="images/freeGuy.jpg"
+            alt="Free Guy Poster"
+            class="movie-poster"
+          />
         </div>
 
         <div id="myModal" class="modal">
           <div class="modal-content">
             <span class="closeBtn">&times;</span>
-            <img alt="" class="movie-poster-modal">
+            <img alt="" class="movie-poster-modal" />
             <h1>Free Guy (2021)</h1>
           </div>
         </div>
@@ -42,6 +46,34 @@
             A bank teller called Guy realizes he is a background character in an
             open world video game called Free City that will soon go offline.
           </p>
+          <div class="container2">
+            <div class="carousel">
+              <div class="carousel__item carousel__item--visible">
+                <img src="images/1.jpg" alt="" />
+              </div>
+
+              <div class="carousel__item">
+                <img src="images/2.jpg" alt="" />
+              </div>
+
+              <div class="carousel__item">
+                <img src="images/3.jpg" alt="" />
+              </div>
+
+              <div class="carousel__item">
+                <img src="images/4.jpg" alt="" />
+              </div>
+
+              <div class="carousel__actions">
+                <button id="carousel__button--prev" aria-label="Previous slide">
+                  <
+                </button>
+                <button id="carousel__button--next" aria-label="Next slide">
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
 
           <div class="movie-info-actions">
             <ul>
@@ -82,5 +114,6 @@
       </footer>
     </div>
     <script src="scripts/app.js"></script>
+    <script src="scripts/carousel.js"></script>
   </body>
 </html>
