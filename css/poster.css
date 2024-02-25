@@ -164,7 +164,7 @@ html {
   justify-content: space-between;
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
 }
 
